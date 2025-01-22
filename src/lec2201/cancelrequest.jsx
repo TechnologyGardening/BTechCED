@@ -8,6 +8,8 @@ function Fetchuser() {
     }, 5000);
   });
 }
+// import Promise from "bluebird";
+// Promise.config({ cancellation: true });
 function CancelRequest() {
   const [user, setUser] = useState("loading....");
   const [id, setId] = useState("loading...");
@@ -29,3 +31,12 @@ function CancelRequest() {
   );
 }
 export default CancelRequest;
+// 1. Create carousel (image changer)
+// using useeffect. Place 4 images
+// in public directory and
+// chnage image at interval of 4
+// seconds
+
+// 2. Implement count down timer
+// using useEffect 5:00 4:59 4:00
+// 3:59 3:00

@@ -1,6 +1,5 @@
 import { useState } from "react";
 import CancelRequest from "./cancelrequest";
-import ApiTesting from "../lec1601/useeffectexer";
 const Setshow = ({ varx }) => (varx ? <CancelRequest /> : null);
 function ReqCancel() {
   const [show, setShow] = useState(false);
